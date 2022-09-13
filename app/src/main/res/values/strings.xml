@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AlgorithmTest</string>
+    <string name="smaller_number">Smaller Number</string>
 </resources>

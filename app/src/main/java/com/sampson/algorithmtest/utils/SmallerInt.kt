@@ -3,16 +3,14 @@ package com.sampson.algorithmtest.utils
 class SmallerInt {
 
     fun testSmallerInt(): Int {
-        val a = arrayOf(1, 2, 3, 4, 5)
+        val ints = arrayListOf(66, 12, 13, 14, 2)
         var smallerNumber = 0
 
-        for (i in 1..a.size) {
+        for (i in 0..ints.lastIndex) {
             if (i == 0) {
-                smallerNumber = a[i]
-            } else {
-                if (a[i] < smallerNumber) {
-                    smallerNumber = a[i]
-                }
+                smallerNumber = ints[i]
+            }else if (ints[i] < smallerNumber) {
+                smallerNumber = ints[i]
             }
         }
         return smallerNumber
