@@ -1,7 +1,5 @@
 package com.sampson.algorithmtest.utils
 
-import android.util.Log
-
 class TwinWords {
 
     fun testTwinWords(): Boolean {
